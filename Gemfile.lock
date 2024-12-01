@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/ecds/ecds_rails_auth_engine.git
-  revision: c5392efddaf97459522bdb79fb92f15fc0cbe13a
+  revision: 511b5def2258980b5a23f78e63c2992fb04af93e
   branch: feature/fauxoauth
   specs:
     ecds_rails_auth_engine (0.1.6)
@@ -117,7 +117,7 @@ GEM
       bundler (>= 1.2.0, < 3)
       thor (~> 1.0)
     cancan (1.6.10)
-    cancancan (3.2.1)
+    cancancan (3.3.0)
     capistrano (3.16.0)
       airbrussh (>= 1.0.0)
       i18n
@@ -135,7 +135,7 @@ GEM
       sshkit (~> 1.3)
     case_transform (0.2)
       activesupport
-    concurrent-ruby (1.1.8)
+    concurrent-ruby (1.1.9)
     coveralls (0.8.23)
       json (>= 1.8, < 3)
       simplecov (~> 0.16.1)
@@ -173,7 +173,7 @@ GEM
     jmespath (1.4.0)
     json (2.5.1)
     jsonapi-renderer (0.2.2)
-    jwt (2.2.2)
+    jwt (2.2.3)
     kaminari (1.2.1)
       activesupport (>= 4.1.0)
       kaminari-actionview (= 1.2.1)
@@ -186,19 +186,19 @@ GEM
       activerecord
       kaminari-core (= 1.2.1)
     kaminari-core (1.2.1)
-    loofah (2.9.0)
+    loofah (2.10.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (1.0.0)
+    marcel (1.0.1)
     method_source (1.0.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2021.0225)
     mini_magick (4.11.0)
     mini_mime (1.0.3)
-    mini_portile2 (2.5.0)
+    mini_portile2 (2.5.3)
     minitest (5.14.4)
     msgpack (1.4.2)
     multi_xml (0.6.0)
@@ -309,7 +309,7 @@ GEM
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
-    websocket-driver (0.7.3)
+    websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     yard (0.9.26)
